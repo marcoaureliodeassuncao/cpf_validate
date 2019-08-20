@@ -36,4 +36,5 @@ class Validator:
 
 if __name__ == '__main__':
 
+	print(Validator().retira_formatacao(sys.argv[1]))
 	print(Validator().valida_cpf(sys.argv[1]))
