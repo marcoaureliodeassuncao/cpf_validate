@@ -25,6 +25,7 @@ class Tester(unittest.TestCase):
 		self.assertTrue(Validator().valida_cpf('00034452915'))
 		self.assertFalse(Validator().valida_cpf('feijoada'))
 		self.assertFalse(Validator().valida_cpf('111.111.111-11'))
+		self.assertFalse(Validator().valida_cpf('-------------'))
 		pass
 
 

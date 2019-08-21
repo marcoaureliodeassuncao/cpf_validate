@@ -39,7 +39,7 @@ class Validator:
 						return False
 				else:
 					return False
-		except TypeError:
+		except (TypeError, IndexError) as error:
 			return False
 
 
